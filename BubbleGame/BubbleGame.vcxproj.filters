@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BubbleGame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BubbleGame.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BubbleGame.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\icon.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\blocks.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\boy.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\bubble.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\girl.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\Grass.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\START.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\HELP.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\MENU.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\BEGINBG.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\bubble_boom.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\bubble_boom2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\Lost_Menu.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\bitmap3.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\numbers.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\blood.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\head_me.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\head_rival.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\Cartridge_Bag.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\power liquid.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\bitmap9.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\speed_liquid.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\finalmenu.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\RESTART.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\CONTINU.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\CONTINUE_GAME.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\MENU2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\earth.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\UNDEAD.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\broken_undead.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\SKILL.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\energy_bar.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\broken_skill.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\bitmap17.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\switch_blood.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\using_switch_blood.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\bubble_rival.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\bubble_boom2_rival.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\bubble_boom_rival.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\bubble_stage.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\bubble_boom_stage.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\bubble_boom2_stage.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\Win_Menu.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\equal_menu.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\stage_choose.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\B_STAGE_1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\B_STAGE_2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\B_STAGE_3.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\B_STAGE_4.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\B_STAGE_5.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\B_STAGE_6.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\B_STAGE_7.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\B_STAGE_8.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\warnings.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\introduction1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\introduction2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\introduction3.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\left_page.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\right_page.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\choose_back.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\introduction_back.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\pre_bs.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\pre_CB.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\pre_power_liquid.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\pre_speed_liquid.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\pre_switch.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\pre_undead.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

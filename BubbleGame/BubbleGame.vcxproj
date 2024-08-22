@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{64C88298-297F-430A-A155-B9AD3528A229}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>BubbleGame</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile />
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="BubbleGame.h" />
+    <ClInclude Include="Resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BubbleGame.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BubbleGame.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\BEGINBG.bmp" />
+    <Image Include="resources\bitmap17.bmp" />
+    <Image Include="resources\bitmap3.bmp" />
+    <Image Include="resources\bitmap9.bmp" />
+    <Image Include="resources\blocks.bmp" />
+    <Image Include="resources\blood.bmp" />
+    <Image Include="resources\boy.bmp" />
+    <Image Include="resources\broken_skill.bmp" />
+    <Image Include="resources\broken_undead.bmp" />
+    <Image Include="resources\bubble.bmp" />
+    <Image Include="resources\bubble_boom.bmp" />
+    <Image Include="resources\bubble_boom2.bmp" />
+    <Image Include="resources\bubble_boom2_rival.bmp" />
+    <Image Include="resources\bubble_boom2_stage.bmp" />
+    <Image Include="resources\bubble_boom_rival.bmp" />
+    <Image Include="resources\bubble_boom_stage.bmp" />
+    <Image Include="resources\bubble_rival.bmp" />
+    <Image Include="resources\bubble_stage.bmp" />
+    <Image Include="resources\B_STAGE_1.bmp" />
+    <Image Include="resources\B_STAGE_2.bmp" />
+    <Image Include="resources\B_STAGE_3.bmp" />
+    <Image Include="resources\B_STAGE_4.bmp" />
+    <Image Include="resources\B_STAGE_5.bmp" />
+    <Image Include="resources\B_STAGE_6.bmp" />
+    <Image Include="resources\B_STAGE_7.bmp" />
+    <Image Include="resources\B_STAGE_8.bmp" />
+    <Image Include="resources\Cartridge_Bag.bmp" />
+    <Image Include="resources\choose_back.bmp" />
+    <Image Include="resources\CONTINU.bmp" />
+    <Image Include="resources\CONTINUE_GAME.bmp" />
+    <Image Include="resources\earth.bmp" />
+    <Image Include="resources\energy_bar.bmp" />
+    <Image Include="resources\equal_menu.bmp" />
+    <Image Include="resources\finalmenu.bmp" />
+    <Image Include="resources\girl.bmp" />
+    <Image Include="resources\Grass.bmp" />
+    <Image Include="resources\head_me.bmp" />
+    <Image Include="resources\head_rival.bmp" />
+    <Image Include="resources\HELP.bmp" />
+    <Image Include="resources\icon.ico" />
+    <Image Include="resources\introduction1.bmp" />
+    <Image Include="resources\introduction2.bmp" />
+    <Image Include="resources\introduction3.bmp" />
+    <Image Include="resources\introduction_back.bmp" />
+    <Image Include="resources\left_page.bmp" />
+    <Image Include="resources\Lost_Menu.bmp" />
+    <Image Include="resources\MENU.bmp" />
+    <Image Include="resources\MENU2.bmp" />
+    <Image Include="resources\numbers.bmp" />
+    <Image Include="resources\power liquid.bmp" />
+    <Image Include="resources\pre_bs.bmp" />
+    <Image Include="resources\pre_CB.bmp" />
+    <Image Include="resources\pre_power_liquid.bmp" />
+    <Image Include="resources\pre_speed_liquid.bmp" />
+    <Image Include="resources\pre_switch.bmp" />
+    <Image Include="resources\pre_undead.bmp" />
+    <Image Include="resources\RESTART.bmp" />
+    <Image Include="resources\right_page.bmp" />
+    <Image Include="resources\SKILL.bmp" />
+    <Image Include="resources\speed_liquid.bmp" />
+    <Image Include="resources\stage_choose.bmp" />
+    <Image Include="resources\START.bmp" />
+    <Image Include="resources\switch_blood.bmp" />
+    <Image Include="resources\UNDEAD.bmp" />
+    <Image Include="resources\using_switch_blood.bmp" />
+    <Image Include="resources\warnings.bmp" />
+    <Image Include="resources\Win_Menu.bmp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
